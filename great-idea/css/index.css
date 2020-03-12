@@ -64,9 +64,16 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-
+/* ---------------------------------------- */
 *{
 	max-width:100%;
+}
+header {
+	width:100%;
+}
+header section{
+	display:flex;
+	align-items: column;
 }
 #navSect {
 	background-color: white;
@@ -75,24 +82,21 @@ h1, h2, h3, h4, h5 {
 	position:fixed;
 	z-index:4;
 	height: 10%;
-}
-
-.content {
-	position:relative;
-	z-index:1;
+	display:flex;
+	align-items:center;
 }
 nav {
 	width:75%;
-	display:inline-block;
+	display:flex;
+	justify-content: space-evenly;
 }
 #navSect a{
 	font-weight: 700;
-	margin: 0 5% 2% 5%;
 	width:14%;
-	color:black;
 	text-decoration:none;
+	display:flex;
+	justify-content:flex-end;
 }
-
 .static-img{
 	position:fixed;
 	opacity: 0.25;
@@ -102,71 +106,82 @@ nav {
 }
 .logo-pic {
 	width:16%;
-	display:inline-block;
+	display:flex;
+	justify-content:flex-end;
+}
+.spacer{
+	height:10%;
+	width:100%;
+}
+.logo-Section{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+}
+.logo-text{
+	display:flex;
+	flex-direction:column;
+	justify-content: center;
+  	align-items: center;
 }
 .logo {
-	
+
 }
 .circleImg{
-	display:inline-block;
 	width:50%;
 }
 .code-circle {
 	width:75%;
-	margin-left:8%;
 }
-header {
-	width:100%;
-	margin-top:15%;
-}
-header div{
-	width:49%;
-	display:inline-block;
-}
+
 h1{
 	text-align: center;
-	margin: 0 25%;
 	font-size: 600%;
-	display:inline-block;
 }
 header p{
 	border:2px solid black;
 	padding: 2% 5%;
-	margin: 10% 29% 10% 39%;
 	text-align: center;
 }
-.center-section {
-	margin-left: 5%;
+/*body{
+	display:flex;
+	flex-direction:column;
+	justify-items:center;
+}*/
+.main-content {
+	z-index:1;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:100%;
+
+}
+.main-content section{
+	display:flex;
+	flex-direction:row;
+}
+.top-section{
 	width:90%;
 	border-top: 2px solid black;
-	border-bottom: 2px solid black;
 }
 .topDiv {
 	width:100%;
-	margin-top: 2%;
 }
-.top{
-	
-	margin: 3% 0%;
+.two-blocks{
 	width:49%;
-	display:inline-block;
 }
 .middle-image {
-	width:100%;
+	width:90%;
 }
 .middle-img {
 	width:100%;
 }
 .bottom{
 	width: 31%;
-	margin: 3% 0%;
-	display:inline-block;
 }
 address{
-	margin:5% 5%;
 }
 footer{
-	margin: 8% 0;
 	width:100%;
 	text-align:center;
 }
