@@ -81,7 +81,7 @@ header section{
 	width:100%;
 	position:fixed;
 	z-index:4;
-	height: 10%;
+	height: 10vh;
 	display:flex;
 	align-items:center;
 }
@@ -109,8 +109,10 @@ nav {
 	display:flex;
 	justify-content:flex-end;
 }
-.spacer{
-	height:10%;
+.spacer{ /* I likely don't need this div could have
+			just aded some vh property to logo-Section
+		 */
+	height:15vh;
 	width:100%;
 }
 .logo-Section{
@@ -119,19 +121,23 @@ nav {
 	justify-content: space-between;
 }
 .logo-text{
+	width:80%;
 	display:flex;
 	flex-direction:column;
 	justify-content: center;
+	align-content: flex-start;
   	align-items: center;
 }
 .logo {
 
 }
 .circleImg{
-	width:50%;
+	display:flex;
+	justify-content: center;
+	width:100%;
 }
 .code-circle {
-	width:75%;
+	width:60%;
 }
 
 h1{
@@ -159,16 +165,30 @@ header p{
 .main-content section{
 	display:flex;
 	flex-direction:row;
+	justify-content:center;
 }
 .top-section{
-	width:90%;
-	border-top: 2px solid black;
+	width:100%;
+	
 }
 .topDiv {
 	width:100%;
 }
 .two-blocks{
-	width:49%;
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:90%;
+	height:20vh;
+	border-top: 2px solid black;
+}
+.three-blocks{
+	display:flex;
+	justify-content:center;
+	align-items: center;
+	width:90%;
+	height:25vh;
+	border-bottom: 2px solid black;
 }
 .middle-image {
 	width:90%;
@@ -176,12 +196,28 @@ header p{
 .middle-img {
 	width:100%;
 }
+.bottom-section{
+	
+	width:100%;
+}
 .bottom{
-	width: 31%;
+	width: 33%;
 }
 address{
+	display:flex;
+
+}
+.footer-section{
+	width:90%;
+	display:flex;
+	flex-direction: column;
+	
 }
 footer{
+	display:flex;
+	justify-content:center;
+	justify-items:center;
+	height:20vh;
 	width:100%;
 	text-align:center;
 }
