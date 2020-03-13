@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/*ol, ul {
 	list-style: none;
-}
+}*/
 blockquote, q {
 	quotes: none;
 }
@@ -236,10 +236,41 @@ address{
 	padding:2%;
 	border:1px solid black;
 	display:flex;
+	align-items:space-between;
 	background-color:grey;
-	width:40%;
+	width:43%;
 }
-
+.services-container {
+	display:flex;
+	justify-content:center;
+	padding: 2% 0;
+	
+}
+.services-container .text{
+	width:90%;
+	padding-bottom: 2%;
+	border-bottom: 1px solid black;
+}
+li{
+	list-style:square;
+}
+.end-notes {
+	margin:3% 0 3% 5%;
+	border-top: 2px solid black;
+	padding-top: 2%;
+	width:90%;
+	display:flex;
+	justify-content:space-between;
+}
+.thing-list {
+	margin-left:4%;
+}
+.end-notes .text{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-between;
+	width:50%;
+}
 .text p{
 	text-align:justify;
 }
