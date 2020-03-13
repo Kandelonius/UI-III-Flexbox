@@ -268,8 +268,12 @@ li{
 .end-notes .text{
 	display:flex;
 	flex-direction: column;
-	justify-content:space-between;
+	justify-content:space-around;
 	width:50%;
+}
+.thing-list {
+	height:50%;
+	display:flex;
 }
 .text p{
 	text-align:justify;
