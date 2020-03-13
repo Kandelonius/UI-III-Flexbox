@@ -98,10 +98,8 @@ nav {
 	display:flex;
 	justify-content:space-around;
 }
-.logo{
-	
-}
-.service-header-container{
+
+#service-header-container{
 	padding-top:15vh;
 	width:100%;
 	display:flex;
@@ -143,6 +141,16 @@ nav {
 	align-content: flex-start;
   	align-items: center;
 }
+footer{
+	
+	display:flex;
+	justify-content:center;
+	justify-items:center;
+	height:20vh;
+	width:100%;
+	text-align:center;
+}
+/* ------ first page ------ */
 .circleImg{
 	width:60%;
 	display:flex;
@@ -158,11 +166,6 @@ header p{
 	padding: 2% 5%;
 	text-align: center;
 }
-/*body{
-	display:flex;
-	flex-direction:column;
-	justify-items:center;
-}*/
 .main-content {
 	z-index:1;
 	display:flex;
@@ -215,15 +218,28 @@ address{
 
 }
 .footer-section{
+	padding-top:5vh;
 	width:90%;
 	display:flex;
 	flex-direction: column;
 }
-footer{
+/* ------ first page ------ */
+/* ------ second page ------ */
+#main-container{
 	display:flex;
-	justify-content:center;
-	justify-items:center;
-	height:20vh;
-	width:100%;
-	text-align:center;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	align-content:space-around;
+	height:60vh;
+}
+.serv-notes{
+	padding:2%;
+	border:1px solid black;
+	display:flex;
+	background-color:grey;
+	width:40%;
+}
+
+.text p{
+	text-align:justify;
 }
